@@ -72,7 +72,7 @@ def banner():
   ███████║╚██████╔╝██████╔╝███████║   ██║   ██║  ██║   ██║   ╚██████╔╝███████║
   ╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚══════╝
 {Style.RESET_ALL}
-  {Fore.WHITE}v2.0  |  Fast Async Subdomain Recon  |  {Fore.BLUE}github.com/yahyaibr{Style.RESET_ALL}
+  {Fore.WHITE} |  Fast Async Subdomain Recon  |  {Fore.BLUE}github.com/yahyaibr{Style.RESET_ALL}
   {Style.DIM}──────────────────────────────────────────────────────────────────────{Style.RESET_ALL}
 """)
 
@@ -362,7 +362,7 @@ def main():
     banner()
 
     parser = argparse.ArgumentParser(
-        description="SubStatus v2.0 — Fast async subdomain HTTP status checker",
+        description="SubStatus — Fast async subdomain HTTP status checker",
         formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument("-f",  "--file",        help="Path to text file containing subdomains (one per line)")
