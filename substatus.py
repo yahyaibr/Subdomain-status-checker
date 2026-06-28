@@ -3,7 +3,7 @@
 SubStatus  — Fast async subdomain HTTP status checker for reconnaissance.
 Features: async scanning, colored output, JSON/CSV export, HTML title parsing,
           server tech detection, DNS/IP resolution.
-Author: Yahya Ibrahim | github.com/yahyaibr
+Author: Yahya Ibrahimi | github.com/yahyaibr
 """
 
 import argparse
